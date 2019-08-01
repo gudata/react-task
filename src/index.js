@@ -1,2 +1,8 @@
+import React from 'react';
+import {render} from 'react-dom';
+
+import style from "./assets/styles/index.css";
+
 import App from "./App";
-import style from "./index.css";
+
+render(<App/>, document.getElementById('root'));
